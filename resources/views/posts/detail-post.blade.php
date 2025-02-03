@@ -7,7 +7,10 @@
     <title>Detail Posts</title>
 </head>
 <body>
+    <div class="flex flex-col">
     <p>Detail Posts</p>
-    <h1>{{ $id }}</h1>
+    <h1>{{ $detail_data['title'] }}</h1>
+    <h1>{{$detail_data['body']}}</h1>
+    </div>  
 </body>
 </html>
